@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  let form = document.querySelector("#create-task-form"); // select the form element
+  let form = document.querySelector("#create-task-form"); // select the form element to help collect data from the user
   let tasklist = document.querySelector("#tasks"); // select the ul element
 
   form.addEventListener("submit", function (event) {
